@@ -31,18 +31,6 @@ echo $html;
 echo $_GET['name'];
 
 
-
-ini_set("xdebug.overload_var_dump", "off");
-echo "<pre>";
-            var_dump(
-                __FILE__,
-                __LINE__,
-                'Valeriy Tyulin',
-'coniec'
-            );
-            echo "</pre>";
-            die;
-
 //МАССИВЫ
 //НА подумать, разобрать и преиспониться
 $dog = ['legs' => 4, 'eyes' => 2, 'fur' => true];
